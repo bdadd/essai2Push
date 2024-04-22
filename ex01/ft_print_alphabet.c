@@ -22,10 +22,11 @@ void	ft_print_alphabet(void)
 		write(1, &lettre, 1);
 		lettre++;
 	}
+	write(1, "\n", 1);
 }
 
-/*int	main(void)
+int	main(void)
 {
 	ft_print_alphabet();
 	return (0);
-}*/
+}
